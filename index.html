@@ -8,8 +8,8 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="❤️ دعوة لحضور حفل الزفاف ❤️">
 <meta property="og:description" content="بكل مشاعر المحبة والسرور، نتشرف بدعوتكم لمشاركتنا فرحة زفافنا ومباركة هذه المناسبة السعيدة.">
-<meta property="og:url" content="https://akramine.github.io/Mariage/">
-<meta property="og:image" content="https://akramine.github.io/Mariage/1.jpeg">
+<meta property="og:url" content="https://akramine.github.io/Mariage-Invitation/">
+<meta property="og:image" content="https://akramine.github.io/Mariage-Invitation/1.jpeg">
 <meta property="og:image:alt" content="Invitation au mariage de Amine & Mayssa">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -309,7 +309,7 @@ h2{font-size:36px;line-height:1.15;letter-spacing:.03em;text-align:center}
 
 
 ```css
-/* Animation élégante — invitation de mariage */
+/* Animation élégante — invitation de  */
 
 .js .h-in {
   opacity: 0;
@@ -1842,7 +1842,7 @@ const CONFIG = {
   /* ----- Remplissage depuis CONFIG ----- */
   const V = { ...C, day: D.getDate(), weekday: cap(fmt({ weekday: 'long' })), monthYear: cap(fmt({ month: 'long', year: 'numeric' })) };
   document.querySelectorAll('[data-k]').forEach(el => { const v = V[el.dataset.k]; if (v != null && v !== '') el.textContent = v; });
-  document.title = `${couple} · Invitation au mariage`;
+  document.title = `${couple} · Invitation au `;
 
   if (C.rsvpDeadline) { const dl = $('#deadline'); dl.textContent = `Merci de répondre avant le ${C.rsvpDeadline}.`; dl.hidden = false; }
 
